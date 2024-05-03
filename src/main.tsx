@@ -5,7 +5,7 @@ import "./index.css";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
 const manifestUrl =
-  "https://tantsur.github.io/counter/tonconnect-manifest.json";
+  "https://tantsur.github.io/ton-counter-client/tonconnect-manifest.json";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
