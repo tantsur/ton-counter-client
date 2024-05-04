@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tantsur.github.io/ton-counter-client",
   "name": "my-twa",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "tsc && vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@orbs-network/ton-access": "^2.3.3",
